@@ -1,0 +1,25 @@
+{
+  "name": "git-test",
+  "version": "1.0.0",
+  "description": "Git test repository",
+  "main": "index.js",
+  "scripts": {
+    "start": "npm run lite", 
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "lite":"lite-server"
+  },
+  "author": "sushovan",
+  "license": "ISC",
+  "devDependencies": {
+    "lite-server": "^2.3.0"
+  },
+  "dependencies": {},
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/sushovannits/git-test.git"
+  },
+  "bugs": {
+    "url": "https://github.com/sushovannits/git-test/issues"
+  },
+  "homepage": "https://github.com/sushovannits/git-test#readme"
+}
